@@ -1,19 +1,19 @@
 # ----
 # Site
 
-title: Drogarias Velanes
-url: "drogariasvelanes.com.br"
+title: 
+url: 
 baseurl: 
 google_analytics_key:
 newsletter_action:
 disqus_shortname:
 rss                       : true # generate RSS feed and show it's icon in header
-instagram                 : drogariasvelanes
-facebook                  : DrogariaVelanes
+instagram                 : 
+facebook                  : 
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Drogarias Velanes
+description: 
 author:
   name:
   email:
