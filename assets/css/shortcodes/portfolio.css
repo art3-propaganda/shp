@@ -27,7 +27,7 @@ Default Portfolio Hover
     right: -200px;
     width: 200px;
     height: 200px;
-    background-color: rgba(244, 244, 244, 0.3);
+    background-color: rgba(3, 169, 244, 0.9);
     z-index: 1;
     border-radius: 100%;
     -webkit-transition: all 0.5s cubic-bezier(0.39,0.575,0.56499,1);

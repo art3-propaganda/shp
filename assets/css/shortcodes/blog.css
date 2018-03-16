@@ -1277,7 +1277,7 @@ Grid News Hover Style
 .grid-news-hover .post-date {
     width: 48px;
     height: 48px;
-    background: #ed145b;
+    background: #4CAF50;
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -1375,7 +1375,7 @@ Grid News Hover Rounded Category Style
     padding: 26px 25px 0;
 }
 .grid-news-hover.rounded-category .post-wrapper:hover .blog-content {
-    border: 1px solid #512da8; /*border color should same with background color*/
+    border: 1px solid #4CAF50; /*border color should same with background color*/
 }
 .grid-news-hover.rounded-category .posted-in a {
     position: absolute;
@@ -1385,7 +1385,7 @@ Grid News Hover Rounded Category Style
     padding: 0 20px;
     display: inline-block;
     color: #fff;
-    background: #e040fb;
+    background: #4CAF50;
     font-size: 11px;
     line-height: 25px;
     font-weight: 500;
@@ -1394,6 +1394,6 @@ Grid News Hover Rounded Category Style
     z-index: 100;
 }
 .grid-news-hover.rounded-category .posted-in a:hover {
-    color: #e040fb;
+    color: #4CAF50;
     background-color: #fff;
 }

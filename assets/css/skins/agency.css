@@ -173,11 +173,11 @@ background banner images
 
 /*believe-wrapper*/
 .believe-wrapper {
-    padding: 50px 120px;
+    padding: 0 120px;
 }
 /*mission-wrapper*/
 .mission-wrapper {
-    padding: 50px 100px;
+    padding: 0 100px;
 }
 
 @media screen and (max-width: 991px) {
