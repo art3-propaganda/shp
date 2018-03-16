@@ -91,41 +91,7 @@
     <!-- RS5.0 Layers and Navigation Styles -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/revolution/css/navigation.css">
-
-    <style type="text/css">
-        .believe-section img,
-        .mission-section img {
-            width: 100%;
-        }
-        /*believe-wrapper*/
-        
-        .believe-wrapper {
-            padding: 50px 120px;
-        }
-        /*mission-wrapper*/
-        
-        .mission-wrapper {
-            padding: 50px 100px;
-        }
-        
-        @media screen and (max-width: 991px) {
-            .believe-wrapper,
-            .mission-wrapper {
-                padding: 50px 30px;
-            }
-        }
-        
-        .mission-wrapper .featured-item .icon {
-            float: left;
-            margin-right: 35px;
-            color: #2ecc71;
-        }
-        
-        .mission-wrapper .featured-item .desc {
-            overflow: hidden;
-        }
-    </style>
-
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -133,112 +99,145 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-    <!-- Top bar -->
-    <div class="top-bar light-blue">
-        <div class="container">
-            <div class="row">
-                <!-- Social Icon -->
-                <div class="col-md-6">
-                    <!-- Social Icon -->
-                    <ul class="list-inline social-top tt-animate btt">
-                        <li><a href="https://facebook.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://instagram.com/{{ site.instagram }}"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-6 text-right">
-                    <ul class="topbar-cta no-margin">
-                        <li class="mr-20">
-                            <a><i class="material-icons mr-10">&#xE0B9;</i>sac@drogariasvelanes.com.br</a>
-                        </li>
-                        <li>
-                            <a><i class="material-icons mr-10">&#xE0CD;</i> 73.3214-8500 | 73.3234-5200</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </div>
-    <!-- /.top-bar -->
-
-
     <!--header start-->
-    <header id="header" class="tt-nav nav-border-bottom">
+        <header id="header" class="tt-nav transparent-header ">
 
-        <div class="header-sticky light-header ">
+            <div class="header-sticky semi-transparent">
 
-            <div class="container">
+                <div class="container">
 
-                <div class="search-wrapper">
-                    <div class="search-trigger pull-right">
-                        <div class='search-btn'></div>
-                        <i class="material-icons">&#xE8B6;</i>
-                    </div>
+                    <div class="search-wrapper">
+                        <div class="search-trigger light semidark pull-right">
+                            <div class='search-btn'></div>
+                            <i class="material-icons">&#xE8B6;</i>
+                        </div>
 
-                    <!-- Modal Search Form -->
-                    <i class="search-close material-icons">&#xE5CD;</i>
-                    <div class="search-form-wrapper">
-                        <form action="#" class="white-form">
-                            <div class="input-field">
-                                <input type="text" name="search" id="search">
-                                <label for="search" class="">Pesquisar...</label>
-                            </div>
-                            <button class="btn orange search-button waves-effect waves-light" type="submit"><i class="material-icons">&#xE8B6;</i></button>
+                        <!-- Modal Search Form -->
+                        <i class="search-close material-icons">&#xE5CD;</i>
+                        <div class="search-form-wrapper">
+                            <form action="#" class="white-form">
+                                <div class="input-field">
+                                    <input type="text" name="search" id="search">
+                                    <label for="search" class="">Search Here...</label>
+                                </div>
+                                <button class="btn green search-button waves-effect waves-light" type="submit"><i class="material-icons">&#xE8B6;</i></button>
+                                
+                            </form>
+                        </div>
+                    </div><!-- /.search-wrapper -->
 
-                        </form>
+                    <div id="materialize-menu" class="menuzord">
+
+                        <!--logo start-->
+                        <a href="{{ site.baseurl }}/" class="logo-brand">
+                            <img src="{{ site.baseurl }}/assets/img/logo-white.png" alt=""/>
+                        </a>
+                        <!--logo end-->
+
+                        <!--mega menu start-->
+                        <ul class="menuzord-menu pull-right light">
+                            <li class="active"><a href="#">Home</a></li>
+
+                            <li><a href="#about">O Shopping</a></li>
+
+                            <li><a href="#shops">Lojas</a></li>
+
+                            <li><a href="#blog">Blog</a></li>
+
+                            <li><a href="javascript:void(0)">Horário de Funcionamento</a>
+                                <div class="megamenu">
+                                    <div class="megamenu-row">
+                                        <div class="col3">
+                                            <h2>Shopping</h2>
+                                            <ul class="list-unstyled">
+                                                <li>Segunda a Sábado <br><a href="">Das 10h às 22h</a></li>
+                                                <li>Domingos e Feriados <br><a href="">Das 14h às 20h</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col3">
+                                            <h2>Lojas | Lazer</h2>
+                                            <ul class="list-unstyled">
+                                                <li>Segunda a Sábado <br><a href="">Das 10h às 22h</a></li>
+                                                <li>Domingos e Feriados <br><a href="">Das 14h às 20h</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col3">
+                                            <h2>Praça de Alimentação</h2>
+                                            <ul class="list-unstyled">
+                                                <li>Segunda a Sábado <br><a href="">Das 10h às 22h</a></li>
+                                                <li>Domingos e Feriados <br><a href="">Das 12h às 20h</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col3">
+                                            <h2>Hiper Bompreço</h2>
+                                            <ul class="list-unstyled">
+                                                <li>Segunda a Sábado <br><a href="">Das 10h às 22h</a></li>
+                                                <li>Domingos e Feriados <br><a href="">Das 14h às 20h</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li><a href="#">Contato</a>
+                            </li>
+                        </ul>
+                        <!--mega menu end-->
+
                     </div>
                 </div>
-                <!-- /.search-wrapper -->
-                {% include navigation.html %}
-                
             </div>
-        </div>
-
-    </header>
-    <!--header end-->
+        </header>
+        <!--header end-->
 
     {{ content }}
 
-    <!--footer 3 start -->
-    <footer class="footer footer-three">
-        <div class="primary-footer brand-bg">
-            <div class="container">
-                <a href="#top" class="page-scroll btn-floating btn-large orange back-top waves-effect waves-light tt-animate btt" data-section="#top">
-                  <i class="material-icons">&#xE316;</i>
-                </a>
+    <!--footer 5 start -->
+        <footer class="footer footer-five">
+            <div class="primary-footer">
+                <div class="container">
 
-                <div class="row">
-                  <div class="col-md-12 text-center">
-                      <div class="footer-logo">
-                        <img src="{{ site.baseurl }}/assets/img/logo-mais.png" alt="">
-                      </div>
-                  </div><!-- /.col-md-12 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.primary-footer -->
+                  <ul class="social-link text-center tt-animate ltr mt-20">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                  </ul>
 
-        <div class="secondary-footer brand-bg">
-            <div class="container">
-                <hr class="mb-20">
-                <div class="row">
-                  <div class="col-md-9">
-                    <span class="copy-text">&copy; {{ site.time | date: "%Y" }} <a href="{{ site.baseurl }}">Drogarias Velanes</a> &nbsp;  | &nbsp;  Todos os direitos reservados &nbsp;  | &nbsp;  Desenvolvido por <a href="http://art3propaganda.com.br">Art3 Propaganda</a></span>
-                  </div><!-- /.col-md-6 -->
-                  <div class="col-md-3">
-                      <ul class="social-link tt-animate ltr">
-                        <li><a href="https://facebook.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://instagram.com/{{ site.instagram }}"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                  <hr class="mt-10">
+
+                  <div class="padding-top-70">
+                    <div class="footer-logo text-center mb-80">
+                      <a href="#">
+                        <img src="{{ site.baseurl }}/assets/img/logo1.png" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div><!-- /.container -->
+            </div><!-- /.primary-footer -->
+
+            <div class="secondary-footer grey lighten-4">
+                <div class="container">
+
+                  <div class="row">
+                    <div class="col-md-7">
+                        <span class="copy-text">&copy; Shopping Jequitibá - Todos os Diretos Reservados &nbsp; | &nbsp;  Desenvolvido por <a href="#">Art3 Propaganda</a></span>
+                    </div>
+                    <div class="col-md-5">
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Oportunidades</a></li>
+                        <li><a href="#">Sala de Imprensa</a></li>
                       </ul>
-                  </div><!-- /.col-md-6 -->
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </div><!-- /.secondary-footer -->
-    </footer>
-    <!--footer 3 end-->
+                    </div>
+                  </div>
+
+                </div><!-- /.container -->
+            </div><!-- /.secondary-footer -->
+        </footer>
+        <!--footer 5 end-->
 
     <script>
       if (window.netlifyIdentity) {
