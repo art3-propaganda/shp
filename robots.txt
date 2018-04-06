@@ -1,7 +1,0 @@
----
-layout: null
-sitemap: false
----
-User-agent: *
-Sitemap: {{ site.baseurl }}/sitemap.xml
-Disallow: /contact-success/
